@@ -8,7 +8,6 @@
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -19,10 +18,10 @@ locale                   : "en-US"
 title                    : "Something Clever"
 title_separator          : "-"
 name                     : "Cody K. Cooper"
-description              : "A site to show you stuff"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+description              : "A site to show you stuff about R and Shiny"
+url                      : "https://codykcooper.github.io"
+baseurl                  : ""
+repository               : "codykcooper/codykcooper.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -88,7 +87,8 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: 
+    - "linkedin.com/in/cody-cooper-7b257725"
 
 # Analytics
 analytics:
