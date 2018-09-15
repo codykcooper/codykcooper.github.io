@@ -104,7 +104,9 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Data Scientist and R Shiny Developer."
   location         : "Columbus, OH"
-  email            :
+  email            : "codykcooper@gmail.com"
+  github           : "codykcooper"
+  linkedin:        : "cody-cooper-7b257725"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
