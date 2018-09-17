@@ -1,14 +1,14 @@
-Below is a list of online experiments I built a few years back using
-[jsPsych](https://www.jspsych.org/) a few years ago when in grad school.
-The code in the linked repo was used to prototype complex online
-experiments to study decision making under different contexts (e.g.,
-food choice while multitasking). These were all built on an older
-version of jsPsych, so they could all likely be improved by being
-updated to work with the most recent version of jsPsych.
+Below is a list of online experiments I built a few years back while in
+grad school using [jsPsych](https://www.jspsych.org/). All the examples
+below were used to prototype complex online experiments to study
+decision making under different contexts (e.g., food choice while
+multitasking). These were all built using an older version of jsPsych,
+so they could all be improved by being updated to work with the most
+recent version.
 
-When I was working on these experiments I was able to embed them with a
-Qualtrics survey, however it appears there have been changes to the
-Qualtrics engine that broke the old approach. There may be a way to get
+When I was working on these experiments I was able to embed them within
+a Qualtrics survey, however it appears there have been changes to the
+Qualtrics engine that broke my old approach. There may be a way to get
 these to integrate with the new engine, but I haven't figured it out
 yet. The author of jsPsych has provided other tools to help distribute
 the experiments.
@@ -28,6 +28,8 @@ completed under time pressure.
     prefer. Participants have up to 10 seconds to determine which food
     they prefer.
 
+See the code [here](https://github.com/codykcooper/Dynamic-Multitasking)
+
 ### [Continuous Response Measure](https://codykcooper.github.io/Continuous-Response-Measure/)
 
 This is an online implementation of a common measure used in
@@ -40,6 +42,9 @@ in value. Additionally, the tool is synched to the clock on the youtube
 video, so the CRM value can be tied to an exact moment/event. This is
 also helpful if there are any pauses or buffering issues during viewing.
 
+See the code
+[here](https://github.com/codykcooper/Continuous-Response-Measure)
+
 ### [Categorize then Decide Experiment](https://codykcooper.github.io/Categorize-then-Decide/)
 
 This experiment presents respondents with a hypothetical scenario where
@@ -48,3 +53,6 @@ interact with the locals of this new planet. During their interaction,
 the respondents are asked to determine which “group” of potential
 inhabitants a series of faces belongs to, and decide how to act (i.e, be
 nice or be defensive).
+
+See the code
+[here](https://github.com/codykcooper/Categorize-then-Decide)
