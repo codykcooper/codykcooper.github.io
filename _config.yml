@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Cody K. Cooper"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/Cody.png"
   bio              : "I am a Data Scientist and R Shiny Developer."
   location         : "Columbus, OH"
   email            : "codykcooper@gmail.com"
