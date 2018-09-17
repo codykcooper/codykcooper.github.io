@@ -1,6 +1,3 @@
-Online Experiments
-------------------
-
 Below is a list of online experiments I built a few years back using
 [jsPsych](https://www.jspsych.org/) a few years ago when in grad school.
 The code in the linked repo was used to prototype complex online
