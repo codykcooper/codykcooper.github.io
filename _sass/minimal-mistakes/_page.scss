@@ -22,8 +22,13 @@
 .page {
   @include breakpoint($large) {
     float: right;
+<<<<<<< HEAD
     width: 100%;
     padding-right: 50px;
+=======
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+>>>>>>> parent of 44986be... adjust css
   }
 
   @include breakpoint($x-large) {
