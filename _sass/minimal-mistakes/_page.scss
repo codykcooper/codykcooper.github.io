@@ -24,7 +24,11 @@
     float: right;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: calc(100% - #{$right-sidebar-width-narrow});
+>>>>>>> parent of c2467c2... Update _page.scss
     padding-right: 50px;
 =======
     width: calc(100% - #{$right-sidebar-width-narrow});
@@ -37,7 +41,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: 100%;
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -484,11 +488,11 @@
 
   @include breakpoint($large) {
     float: right;
-    width: 100%;
+    width: calc(100% - #{$right-sidebar-width-narrow});
   }
 
   @include breakpoint($x-large) {
-    width: 100%;
+    width: calc(100% - #{$right-sidebar-width});
   }
 
   a {
