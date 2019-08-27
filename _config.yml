@@ -15,10 +15,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Something Clever"
+title                    : ""
 title_separator          : "-"
 name                     : "Cody K. Cooper"
-description              : "A site to show you stuff about R and Shiny"
+description              : "A site sharing experience with multiple data science tools"
 url                      : "https://codykcooper.github.io"
 baseurl                  : ""
 repository               : "codykcooper/codykcooper.github.io"
@@ -87,7 +87,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: 
+  links:
     - "linkedin.com/in/cody-cooper-7b257725"
 
 # Analytics
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Cody K. Cooper"
   avatar           : "/assets/img/Cody.png"
-  bio              : "I'm a Data Scientist and R Shiny Developer"
+  bio              : "I'm a data scientist, product developer, and curious programmer"
   location         : "Columbus, OH"
   email            : "codykcooper@gmail.com"
   linkedin         : "cody-cooper-7b257725"
@@ -111,21 +111,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url:  "mailto:codykcooper@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/codykcooper?tab=repositories"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
