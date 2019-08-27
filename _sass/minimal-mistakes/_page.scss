@@ -451,10 +451,10 @@
 
 .comment__content-wrapper {
   float: right;
-  width: 100%;
+  width: calc(100% - 60px);
 
   @include breakpoint($large) {
-    width: 100%;
+    width: calc(100% - 100px);
   }
 }
 
